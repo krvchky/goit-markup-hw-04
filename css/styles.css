@@ -7,17 +7,26 @@
 .container {
     margin: auto;
     margin-left: auto;
-    width: 1175px;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
     outline: 2px solid tomat
     
 }
-ul {
-    list-style: none;
-}
+
 
 ul {
+    list-style: none;
     padding: 0;
     margin: 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+padding: 0;
+margin: 0;
 }
 
 
@@ -31,6 +40,8 @@ ul {
 
 .our_clients {
     background-color: #FFFFFF;
+    padding-top: 94px ;
+    padding-bottom: 94px;
 }
 .photo-logo {
     display: flex;
@@ -44,7 +55,6 @@ ul {
         height: 92px;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
-        margin-bottom: 94px;
         margin-right: 30px;
 
 }
@@ -78,7 +88,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 600px;
 max-width: 700px;
 }
 
@@ -99,8 +108,6 @@ max-width: 700px;
         color: var(--primary-white-color);
 }
 .hero-button {
-
-
         background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -173,6 +180,7 @@ max-width: 700px;
 
 .main_middle {
     padding-top: 94px;
+    padding-bottom: 0;
     background-color: #fff;
 }
 
@@ -208,17 +216,18 @@ max-width: 700px;
 
  /* ЧИМ МИ ЗАЙМАЄМОСЯ */
 .main_center {
-   padding-top: 0;
+   padding-top: 94px;
    padding-bottom: 94px;
    background-color: #FFFFFF;
 }
 
 .photo_container .second-headlines {
-    padding-bottom: 50px;
-    padding-top: 94px;
+    padding-top: 0;
 }
 .second-headlines {
     margin-top: 0;
+
+    padding-top: 0;
 }
 
 .photo_container .photos {
@@ -330,7 +339,9 @@ max-width: 700px;
 .peoples {
     justify-content: center;
     display: flex;
-    margin-top: 30;
+    padding-top: 30px;
+    margin-bottom: 10px;
+
     
 }
 .jobs {
@@ -382,9 +393,6 @@ max-width: 700px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-
-        
-        padding-top: 94px;
         padding-bottom: 50px;
 }
 .log {
@@ -642,6 +650,11 @@ border: 1px solid #EEEEEE
 }
 .modal-btn {
     cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    
 }
 
 .btns {
@@ -649,8 +662,6 @@ border: 1px solid #EEEEEE
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
-    padding-top: 94px;
-  padding: 22px;
 }
 
 .portfolio-section {
@@ -664,15 +675,18 @@ border: 1px solid #EEEEEE
 
 /* ПОРТФОЛІО,СРЕДИНА З ФОТО */
 
+.portfolio-photo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 
+}
  .reference  {
     text-decoration: none;
 }
 
 .project {
-  padding-left: 24px;
   margin-bottom: 4px;
-
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -681,7 +695,6 @@ border: 1px solid #EEEEEE
 }
 
 .project-text {
-    padding-left: 24px;
     color: var(--primary-gray-color);
     font-size: 16px;
     line-height: 1.87;
@@ -690,8 +703,11 @@ border: 1px solid #EEEEEE
 .project-work {
     display: flex;
     flex-wrap: wrap;
-    gap: 29px;
+    gap: 30px;
 
+}
+.container-projects {
+   padding-right: 0;
 }
 
 
@@ -834,6 +850,7 @@ color: var(--accent-color)
     align-items: center;
     outline: none;
     margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
     
 }
 
